@@ -1,0 +1,22 @@
+[project]
+name = "ai-research-assistant"
+version = "0.1.0"
+description = "An open-source RAG assistant for one subfield (3D Gaussian Splatting compression) that answers questions with passage-level citations, extracts structured results (datasets, metrics, numbers) across papers, and ships with a published evaluation harness that measures how well it works."
+readme = "README.md"
+authors = [
+    { name = "atalneupane", email = "atalneupane@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+ai-research-assistant = "ai_research_assistant:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.2",
+]
