@@ -7,7 +7,9 @@ authors = [
     { name = "atalneupane", email = "atalneupane@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "arxiv>=4.0.2",
+]
 
 [project.scripts]
 ai-research-assistant = "ai_research_assistant:main"
