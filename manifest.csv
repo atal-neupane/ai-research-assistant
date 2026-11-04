@@ -1,3 +1,5 @@
 arxiv_id,title,date,venue,category,code_url,is_thesis_baseline,status
 2308.04079,3D Gaussian Splatting for Real-Time Radiance Field Rendering,2023,ACM Trans. Graph.,original,https://github.com/graphdeco-inria/gaussian-splatting,yes,downloaded
 2608.26948,KISS-GS: 3D Gaussian Splatting Compression Kept Simple,2026,ECCV,pipeline based ,N/A as for now,no,downloaded
+2311.17245,LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS,2023,NeurIPS 2024,SH distillation and quantization,https://github.com/VITA-Group/LightGaussian,yes,downloaded
+2312.13299,Compact 3D Scene Representation via Self-Organizing Gaussian Grids,2023,ECCV 2024,Grid representation of gaussians,https://github.com/fraunhoferhhi/Self-Organizing-Gaussians,no,downloaded
